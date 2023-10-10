@@ -7,7 +7,6 @@ export default function MenuLinks(props) {
   const [productHover, setProductHover] = useState(false);
   const [resourcesHover, setResourcesHover] = useState(false);
   const [menuHover, setMenuHover] = useState(false);
-  const [menuCollapsed, setMenuCollapsed] = useState(false);
 
   const handleBtnClick = () => {
     // props.setLogoCollapsed(!props.logoCollapsed);

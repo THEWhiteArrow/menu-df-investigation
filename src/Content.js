@@ -28,7 +28,7 @@ const Content = () => {
           <div className="flex justify-between">
             {/*The next 3 things should be 1 component. Will make it in full project...*/}
             <div className="flex bg-white w-[30%] mt-5 rounded-2xl px-3 py-2">
-              <img src="./icon.png" className="w-7 mr-1" />
+              <img alt="sth" src="./icon.png" className="w-7 mr-1" />
               <p className="self-center text-xs font-medium">
                 Tech
                 <br />
@@ -36,7 +36,7 @@ const Content = () => {
               </p>
             </div>
             <div className="flex bg-white w-[30%] mt-5 rounded-2xl px-3 py-2">
-              <img src="./icon.png" className="w-7 mr-1" />
+              <img alt="sth" src="./icon.png" className="w-7 mr-1" />
               <p className="self-center text-xs font-medium">
                 Talent
                 <br />
@@ -44,7 +44,7 @@ const Content = () => {
               </p>
             </div>
             <div className="flex bg-white w-[30%] mt-5 rounded-2xl px-3 py-2">
-              <img src="./icon.png" className="w-7 mr-1" />
+              <img alt="sth" src="./icon.png" className="w-7 mr-1" />
               <p className="self-center text-xs font-medium">
                 Skills
                 <br />
@@ -54,7 +54,7 @@ const Content = () => {
           </div>
         </div>
         <div className="flex flex-col w-[30%]">
-          <img src="./road.png" />
+          <img alt="sth" src="./road.png" />
         </div>
       </div>
     </div>
