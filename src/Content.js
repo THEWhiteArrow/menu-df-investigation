@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Content = () => {
-  const texts = ["Driving your transformation projects 1", "Driving your transformation projects 2", "Driving your transformation projects 3"];
+  const texts = ["Driving your transformation projects", "Driving your transformation projects!", "Driving your transformation projects"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
