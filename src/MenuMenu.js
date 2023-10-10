@@ -1,3 +1,5 @@
+import { ReactComponent as ArrowRight } from "./arrow_right.svg";
+
 export default function ProductMenu() {
   return (
     <div className="extended-menu product menu flex ">
@@ -9,34 +11,54 @@ export default function ProductMenu() {
           <ul className="pr-10 flex flex-col ">
             <h3 className="flex mb-3">Products</h3>
             <li className="flex items-center">
-              <a href="/product#">Employer of Record</a>
+              <a href="/product#">
+                <span>Employer of Record</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Contract Managment</a>
+              <a href="/product#">
+                <span>Contract Managment</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Global Payroll</a>
+              <a href="/product#">
+                <span>Global Payroll</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">HRIS Software</a>
+              <a href="/product#">
+                <span>HRIS Software</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Remote Relocation</a>
+              <a href="/product#">
+                <span>Remote Relocation</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Employer of Record</a>
+              <a href="/product#">
+                <span>Employer of Record</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Contract Managment</a>
+              <a href="/product#">
+                <span>Contract Managment</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Global Payroll</a>
+              <a href="/product#">
+                <span>Global Payroll</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">HRIS Software</a>
+              <a href="/product#">
+                <span>HRIS Software</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Remote Relocation</a>
+              <a href="/product#">
+                <span>Remote Relocation</span> <ArrowRight />
+              </a>
             </li>
           </ul>
         </div>
@@ -49,17 +71,25 @@ export default function ProductMenu() {
           <ul className="pr-10 flex flex-col ">
             <h3 className="flex mb-3">Products</h3>
             <li className="flex items-center">
-              <a href="/product#">Employer of Record</a>
+              <a href="/product#">
+                <span>Employer of Record</span> <ArrowRight />
+              </a>
             </li>
 
             <li className="flex items-center">
-              <a href="/product#">Global Payroll</a>
+              <a href="/product#">
+                <span>Global Payroll</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">HRIS Software</a>
+              <a href="/product#">
+                <span>HRIS Software</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Remote Relocation</a>
+              <a href="/product#">
+                <span>Remote Relocation</span> <ArrowRight />
+              </a>
             </li>
           </ul>
         </div>
@@ -72,16 +102,24 @@ export default function ProductMenu() {
           <ul className="pr-10 flex flex-col ">
             <h3 className="flex mb-3">Products</h3>
             <li className="flex items-center">
-              <a href="/product#">Employer of Record</a>
+              <a href="/product#">
+                <span>Employer of Record</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Global Payroll</a>
+              <a href="/product#">
+                <span>Global Payroll</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">HRIS Software</a>
+              <a href="/product#">
+                <span>HRIS Software</span> <ArrowRight />
+              </a>
             </li>
             <li className="flex items-center">
-              <a href="/product#">Remote Relocation</a>
+              <a href="/product#">
+                <span>Remote Relocation</span> <ArrowRight />
+              </a>
             </li>
           </ul>
         </div>

@@ -1,64 +1,66 @@
-import './App.css';
-import Menu from './Menu';
-import Content from './Content';
+import "./App.css";
+import Menu from "./Menu";
+import Content from "./Content";
 
 function App() {
   return (
     <div className="App h-full flex flex-col">
       <Menu />
       <Content />
-      <p className="w-1">
+      <div className="w-full bg-gray-200">
+        <p className="w-40">
           lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum
-          dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
-          consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
-          adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
-          elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
+          dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
           amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
           elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
-          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit
-          amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
           consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
           adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing
-          elit.
+          elit. lorem ipsum dolor sit amet consectetur adipisicing elit. lorem
+          ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor
+          sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet
+          consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur
+          adipisicing elit.
         </p>
+      </div>
     </div>
   );
 }

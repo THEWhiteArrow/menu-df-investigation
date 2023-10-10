@@ -8,7 +8,7 @@ const Menu = () => {
 
   useEffect(() => {
     const handleScroll = (event) => {
-      const threshold = 300;
+      const threshold = 500;
 
       if (window.scrollY > threshold && !logoCollapsed) {
         setLogoCollapsed(true);
@@ -41,13 +41,16 @@ const Menu = () => {
         </div>
 
         <div
-          className={`menu-connection flex flex-col w-2 h-[44px] ${
+          className={`menu-connection flex flex-col w-3 h-[44px]  ${
             logoCollapsed ? "collapsed" : ""
           }`}
         >
-          <div className="inline-block w-full h-1/3 bg-rb top" />
+          {/* <div className="inline-block w-full h-1/3 bg-rb top" />
           <div className="inline-block w-full h-1/3 middle" />
-          <div className="inline-block w-full h-1/3 bg-rb bottom" />
+          <div className="inline-block w-full h-1/3 bg-rb bottom" /> */}
+
+          <div className="inline-block w-full h-1/2 bg-white top" />
+          <div className="inline-block w-full h-1/2 bg-white bottom" />
         </div>
 
         <MenuLinks

@@ -18,14 +18,12 @@ export default function MenuLinks(props) {
 
   return (
     <ul
-      className={` ${
+      className={`menu-links ${
         props.logoCollapsed ? "collapsed-ul" : ""
       } px-2 flex bg-white text-rp rounded-custom relative`}
     >
       <li
-        className={`${
-          menuCollapsed ? "hidden" : ""
-        } flex nav-li items-center px-3`}
+        className={`hidden md:flex nav-li items-center px-3`}
         onMouseEnter={() => setProductHover(true)}
         onMouseLeave={() => setProductHover(false)}
       >
@@ -33,27 +31,17 @@ export default function MenuLinks(props) {
         {productHover && <ProductMenu />}
       </li>
       <li
-        className={`${
-          menuCollapsed ? "hidden" : ""
-        } flex nav-li items-center px-3`}
+        className={`hidden md:flex nav-li items-center px-3`}
         onMouseEnter={() => setResourcesHover(true)}
         onMouseLeave={() => setResourcesHover(false)}
       >
         <a href="/about">Resources</a>
         {resourcesHover && <ResourcesMenu />}
       </li>
-      <li
-        className={`${
-          menuCollapsed ? "hidden" : ""
-        } flex nav-li items-center px-3`}
-      >
+      <li className={`hidden md:flex nav-li items-center px-3`}>
         <a href="/about">Pricing</a>
       </li>
-      <li
-        className={`${
-          menuCollapsed ? "hidden" : ""
-        } flex nav-li items-center px-3`}
-      >
+      <li className={`hidden md:flex nav-li items-center px-3`}>
         <a href="/about">Country explorer</a>
       </li>
       <li
