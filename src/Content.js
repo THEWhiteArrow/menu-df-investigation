@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 const Content = () => {
   const texts = [
     "Driving your transformation projects1",
